@@ -1,0 +1,38 @@
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.deps.json
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.dll
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.pdb
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.csproj.AssemblyReference.cache
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.AssemblyInfoInputs.cache
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.AssemblyInfo.cs
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.csproj.CoreCompileInputs.cache
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.dll
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\refint\ASOMAMECO.Data.dll
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.pdb
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Data\obj\Debug\net8.0\ref\ASOMAMECO.Data.dll
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.deps.json
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.dll
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.pdb
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.csproj.AssemblyReference.cache
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.AssemblyInfoInputs.cache
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.AssemblyInfo.cs
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.csproj.CoreCompileInputs.cache
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.sourcelink.json
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.dll
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\refint\ASOMAMECO.Data.dll
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.pdb
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ref\ASOMAMECO.Data.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.deps.json
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\bin\Debug\net8.0\ASOMAMECO.Data.pdb
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.csproj.AssemblyReference.cache
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.AssemblyInfoInputs.cache
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.AssemblyInfo.cs
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.sourcelink.json
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\refint\ASOMAMECO.Data.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ASOMAMECO.Data.pdb
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Data\obj\Debug\net8.0\ref\ASOMAMECO.Data.dll
