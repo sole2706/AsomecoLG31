@@ -1,0 +1,48 @@
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.deps.json
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.dll
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.pdb
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Data.dll
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Data.pdb
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.csproj.AssemblyReference.cache
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.AssemblyInfoInputs.cache
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.AssemblyInfo.cs
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.csproj.CoreCompileInputs.cache
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMEC.739EE9DF.Up2Date
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.dll
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\refint\ASOMAMECO.Business.dll
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.pdb
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ref\ASOMAMECO.Business.dll
+D:\UTN\Materias\Cuatri 13\Calidad\Proyecto\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.sourcelink.json
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.deps.json
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.dll
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.pdb
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Data.dll
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Data.pdb
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.csproj.AssemblyReference.cache
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.AssemblyInfoInputs.cache
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.AssemblyInfo.cs
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.csproj.CoreCompileInputs.cache
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.sourcelink.json
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMEC.739EE9DF.Up2Date
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.dll
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\refint\ASOMAMECO.Business.dll
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.pdb
+C:\Users\soler\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ref\ASOMAMECO.Business.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.deps.json
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Business.pdb
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Data.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\bin\Debug\net8.0\ASOMAMECO.Data.pdb
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.csproj.AssemblyReference.cache
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.AssemblyInfoInputs.cache
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.AssemblyInfo.cs
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.sourcelink.json
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMEC.739EE9DF.Up2Date
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\refint\ASOMAMECO.Business.dll
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ASOMAMECO.Business.pdb
+C:\Users\Estudiante\source\repos\ASOMAMECO\ASOMAMECO.Business\obj\Debug\net8.0\ref\ASOMAMECO.Business.dll
