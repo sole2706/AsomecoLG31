@@ -1,0 +1,102 @@
+﻿@model ASOMAMECO.Web.ViewModels.EventoViewModel
+@{
+    ViewData["Title"] = "Eventos";
+}
+
+<div class="container py-4">
+    <h1 class="mb-4">Gestión de Eventos</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title mb-0">Listado de Eventos</h5>
+                <div>
+                    <a asp-action="Create" class="btn btn-success">
+                        <i class="bi bi-plus-circle"></i> Nuevo Evento
+                    </a>
+                </div>
+            </div>
+
+            @if (Model.Eventos != null && Model.Eventos.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Fecha</th>
+                                <th>Hora</th>
+                                <th>Asistencia</th>
+                                <th>Estado</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Eventos)
+                            {
+                                <tr>
+                                    <td>@item.Nombre</td>
+                                    <td>@item.Fecha.ToString("dd/MM/yyyy")</td>
+                                    <td>@item.Fecha.ToString("HH:mm")</td>
+                                    <td>@item.CantidadAsistentes</td>
+
+                                    <td>
+                                        @if (item.Activo)
+                                        {
+                                            <span class="badge bg-success">Activo</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary">Inactivo</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <div class="btn-group btn-group-sm">
+                                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">
+                                                <i class="bi bi-pencil"></i>
+                                            </a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                                                <i class="bi bi-trash"></i>
+                                            </a>
+                                            <a asp-controller="Asistencia" asp-action="RegistrarPorEvento" asp-route-id="@item.Id" class="btn btn-success">
+                                                <i class="bi bi-clipboard-check"></i>
+                                            </a>
+                                            <a asp-controller="Asistencia" asp-action="ListadoPorEvento" asp-route-id="@item.Id" class="btn btn-secondary">
+                                                <i class="bi bi-list-check"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    No se encontraron eventos registrados.
+                </div>
+            }
+        </div>
+    </div>
+</div>

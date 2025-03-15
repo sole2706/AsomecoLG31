@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Registrar Asistencia";
+}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title mb-4">Registrar Asistencia</h1>
+
+                    <div class="alert alert-info mb-4">
+                        <h5>Evento: @ViewBag.EventoNombre</h5>
+                        <p>Fecha: @ViewBag.EventoFecha</p>
+                    </div>
+
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            @TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <form asp-action="BuscarMiembro" method="post" class="mb-4">
+                        <input type="hidden" name="eventoId" value="@ViewBag.EventoId" />
+
+                        <div class="mb-3">
+                            <label for="searchTerm" class="form-label">Buscar miembro por cédula o número de asociado</label>
+                            <div class="input-group">
+                                <input type="text" id="searchTerm" name="searchTerm" class="form-control" placeholder="Ingrese cédula o número de asociado" required />
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="bi bi-search"></i> Buscar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                        <a asp-controller="Eventos" asp-action="Details" asp-route-id="@ViewBag.EventoId" class="btn btn-secondary me-md-2">Volver a Detalles</a>
+                        <a asp-action="ListadoPorEvento" asp-route-id="@ViewBag.EventoId" class="btn btn-info">Ver Listado de Asistencia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

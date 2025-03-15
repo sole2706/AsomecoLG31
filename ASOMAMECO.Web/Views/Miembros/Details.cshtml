@@ -1,0 +1,47 @@
+﻿@model ASOMAMECO.Web.ViewModels.MiembroViewModel
+@{
+    ViewData["Title"] = "Detalles del Miembro";
+}
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title mb-4">Detalles del Miembro</h1>
+
+                    <dl class="row">
+                        <dt class="col-sm-3">Nombre:</dt>
+                        <dd class="col-sm-9">@Model.Miembro.Nombre</dd>
+
+                        <dt class="col-sm-3">Cédula:</dt>
+                        <dd class="col-sm-9">@Model.Miembro.Cedula</dd>
+
+                        <dt class="col-sm-3">Email:</dt>
+                        <dd class="col-sm-9">@Model.Miembro.Email</dd>
+
+                        <dt class="col-sm-3">Teléfono:</dt>
+                        <dd class="col-sm-9">@Model.Miembro.Telefono</dd>
+
+                        <dt class="col-sm-3">Estado:</dt>
+                        <dd class="col-sm-9">
+                            @if (Model.Miembro.Activo)
+                            {
+                                <span class="badge bg-success">Activo</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Inactivo</span>
+                            }
+                        </dd>
+                    </dl>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                        <a asp-action="Index" class="btn btn-secondary me-md-2">Volver a la Lista</a>
+                        <a asp-action="Edit" asp-route-id="@Model.Miembro.Id" class="btn btn-primary me-md-2">Editar</a>
+                        <a asp-controller="Asistencia" asp-action="ListadoPorMiembro" asp-route-id="@Model.Miembro.Id" class="btn btn-info">Ver Asistencias</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

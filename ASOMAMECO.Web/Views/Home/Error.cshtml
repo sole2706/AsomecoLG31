@@ -1,0 +1,18 @@
+﻿@model ASOMAMECO.Web.ViewModels.ErrorViewModel
+@{ViewData["Title"]="Error";}
+<div class="container py-4">
+    <div class="text-center">
+        <h1 class="display-4 text-danger">Error</h1>     
+@if(Model.StatusCode >0)        
+{
+<h2>Error @Model.StatusCode</h2>
+}        
+<p class="lead">@(string.IsNullOrEmpty(Model.Message) ? "Ha ocurrido un error durante el procesamiento de su solicitud." : Model.Message)</p>
+@if(Model.ShowRequestId){
+    <p><strong>ID de Solicitud:</strong><code>@Model.RequestId</code></p>
+}
+    </div>
+    <div class="text-center mt-4">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Volver al Inicio</a>
+    </div>
+</div>

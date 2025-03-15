@@ -1,0 +1,60 @@
+﻿@model ASOMAMECO.Web.ViewModels.MiembroViewModel
+@{
+    ViewData["Title"] = "Editar Miembro";
+}
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title mb-4">Editar Miembro</h1>
+
+                    <form asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Miembro.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Miembro.Nombre" class="form-label">Nombre</label>
+                            <input asp-for="Miembro.Nombre" class="form-control" />
+                            <span asp-validation-for="Miembro.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Miembro.Cedula" class="form-label">Cédula</label>
+                            <input asp-for="Miembro.Cedula" class="form-control" />
+                            <span asp-validation-for="Miembro.Cedula" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Miembro.Email" class="form-label">Email</label>
+                            <input asp-for="Miembro.Email" type="email" class="form-control" />
+                            <span asp-validation-for="Miembro.Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Miembro.Telefono" class="form-label">Teléfono</label>
+                            <input asp-for="Miembro.Telefono" class="form-control" />
+                            <span asp-validation-for="Miembro.Telefono" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input asp-for="Miembro.Activo" class="form-check-input" />
+                            <label asp-for="Miembro.Activo" class="form-check-label">Activo</label>
+                            <span asp-validation-for="Miembro.Activo" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                            <a asp-action="Index" class="btn btn-secondary me-md-2">Cancelar</a>
+                            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

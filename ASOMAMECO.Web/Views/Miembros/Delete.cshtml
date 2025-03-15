@@ -1,0 +1,49 @@
+﻿@model ASOMAMECO.Web.ViewModels.MiembroViewModel
+@{
+    ViewData["Title"] = "Eliminar Miembro";
+}
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title text-danger mb-4">¿Está seguro que desea eliminar este miembro?</h1>
+
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <dl class="row">
+                        <dt class="col-sm-3">Nombre:</dt>
+                        <dd class="col-sm-9">@Model.Miembro.Nombre</dd>
+
+                        <dt class="col-sm-3">Cédula:</dt>
+                        <dd class="col-sm-9">@Model.Miembro.Cedula</dd>
+
+                        <dt class="col-sm-3">Email:</dt>
+                        <dd class="col-sm-9">@Model.Miembro.Email</dd>
+
+                        <dt class="col-sm-3">Teléfono:</dt>
+                        <dd class="col-sm-9">@Model.Miembro.Telefono</dd>
+                    </dl>
+
+                    <div class="alert alert-warning">
+                        <i class="bi bi-exclamation-triangle-fill"></i> Esta acción no se puede deshacer y eliminará también toda la información de asistencia relacionada con este miembro.
+                    </div>
+
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" asp-for="Miembro.Id" />
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                            <a asp-action="Index" class="btn btn-secondary me-md-2">Cancelar</a>
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+@model ASOMAMECO.Web.ViewModels.UsuarioViewModel
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-header text-white">
+                <h3 class="text-center mb-0" >Iniciar Sesión</h3 >
+            </div>
+            <div class="card-body">
+                <!-- Logo arriba de los campos -->
+                <div class="logo-container">
+                    <img src="~/css/Logo.jpg" id="logoImage" class="logo-image" alt="Logo ASOMAMECO">
+                </div>
+
+                @if (Model.ErrorMessages != null && Model.ErrorMessages.Any())
+                {
+                    <div class="alert alert-danger">
+                        <ul class="mb-0">
+                            @foreach (var error in Model.ErrorMessages)
+                            {
+                                <li>@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+                <form asp-controller="Login" asp-action="Login" method="post">
+                    <input type="hidden" asp-for="ReturnUrl" />
+                    <div class="form-group mb-3">
+                        <label for="LoginModel_UsuarioName">
+                            <i class="fas fa-user"></i> Nombre de Usuario
+                        </label>
+                        <input type="text" class="form-control" id="LoginModel_UsuarioName" name="LoginModel.UsuarioName" required>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="LoginModel_Contrasenia">
+                            <i class="fas fa-lock"></i> Contraseña
+                        </label>
+                        <input type="password" class="form-control" id="LoginModel_Contrasenia" name="LoginModel.Contrasenia" required>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Función para cambiar el logo de fondo
+    function cambiarLogoFondo(nuevaRuta) {
+        document.getElementById('backgroundLogo').src = nuevaRuta;
+    }
+
+ 
+</script>

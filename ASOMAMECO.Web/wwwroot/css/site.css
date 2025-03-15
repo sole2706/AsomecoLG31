@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Encabezado y títulos */
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+h1.card-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #1a3a5f;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #5a6268;
+    margin-bottom: 2rem;
+}
+
+/* Tarjetas */
+.card {
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+    }
+
+.card-body {
+    padding: 2rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Alertas */
+.alert {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.alert-info {
+    background-color: #e1f5fe;
+    color: #0288d1;
+    border-left: 5px solid #0288d1;
+}
+
+.alert-secondary {
+    background-color: #f5f5f5;
+    color: #616161;
+    border-left: 5px solid #9e9e9e;
+}
+
+.alert-heading {
+    font-weight: 600;
+    color: inherit;
+}
+
+/* Botones */
+.btn {
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0.5rem 1.25rem;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    color: white;
+}
+
+    .btn-primary:hover {
+        background-color: #0d62d1;
+        box-shadow: 0 5px 15px rgba(26, 115, 232, 0.3);
+    }
+
+.btn-secondary {
+    background-color: #5f6368;
+    color: white;
+}
+
+    .btn-secondary:hover {
+        background-color: #494c50;
+        box-shadow: 0 5px 15px rgba(95, 99, 104, 0.3);
+    }
+
+.btn-success {
+    background-color: #34a853;
+    color: white;
+}
+
+    .btn-success:hover {
+        background-color: #2d9249;
+        box-shadow: 0 5px 15px rgba(52, 168, 83, 0.3);
+    }
+
+/* Espaciado entre botones */
+.btn + .btn {
+    margin-left: 0.5rem;
+}
+
+/* Tarjetas de acciones en la fila inferior */
+.row.mt-4 .card {
+    background-color: white;
+    border-top: 4px solid #1a73e8;
+}
+
+    .row.mt-4 .card:nth-child(2) {
+        border-top-color: #34a853;
+    }
+
+    .row.mt-4 .card:nth-child(3) {
+        border-top-color: #fbbc05;
+    }
+
+/* Texto en las tarjetas de acción */
+.row.mt-4 .card-text {
+    color: #5f6368;
+    margin-bottom: 1.5rem;
+}
+
+/* Diseño responsivo adicional */
+@media (max-width: 768px) {
+    .row.mt-4 .col-md-4 {
+        margin-bottom: 1.5rem;
+    }
+
+    h1.card-title {
+        font-size: 2rem;
+    }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+}

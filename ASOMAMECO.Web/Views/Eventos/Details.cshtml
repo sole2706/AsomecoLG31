@@ -1,0 +1,46 @@
+﻿@model ASOMAMECO.Web.ViewModels.EventoViewModel
+@{
+    ViewData["Title"] = "Detalles del Evento";
+}
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title mb-4">Detalles del Evento</h1>
+
+                    <dl class="row">
+                        <dt class="col-sm-3">Nombre:</dt>
+                        <dd class="col-sm-9">@Model.Evento.Nombre</dd>
+
+                        <dt class="col-sm-3">Descripción:</dt>
+                        <dd class="col-sm-9">@Model.Evento.Descripcion</dd>
+
+                        <dt class="col-sm-3">Fecha:</dt>
+                        <dd class="col-sm-9">@Model.Evento.Fecha.ToString("dd/MM/yyyy")</dd>
+
+
+                        <dt class="col-sm-3">Estado:</dt>
+                        <dd class="col-sm-9">
+                            @if (Model.Evento.Activo)
+                            {
+                                <span class="badge bg-success">Activo</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Inactivo</span>
+                            }
+                        </dd>
+                    </dl>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                        <a asp-action="Index" class="btn btn-secondary me-md-2">Volver a la Lista</a>
+                        <a asp-action="Edit" asp-route-id="@Model.Evento.Id" class="btn btn-primary me-md-2">Editar</a>
+                        <a asp-controller="Asistencia" asp-action="RegistrarPorEvento" asp-route-id="@Model.Evento.Id" class="btn btn-success me-md-2">Registrar Asistencia</a>
+                        <a asp-controller="Asistencia" asp-action="ListadoPorEvento" asp-route-id="@Model.Evento.Id" class="btn btn-info">Ver Asistencias</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

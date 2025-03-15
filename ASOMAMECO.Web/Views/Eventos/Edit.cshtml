@@ -1,0 +1,58 @@
+﻿@model ASOMAMECO.Web.ViewModels.EventoViewModel
+@{
+    ViewData["Title"] = "Editar Evento";
+}
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title mb-4">Editar Evento</h1>
+
+                    <form asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Evento.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Evento.Nombre" class="form-label">Nombre</label>
+                            <input asp-for="Evento.Nombre" class="form-control" />
+                            <span asp-validation-for="Evento.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Evento.Descripcion" class="form-label">Descripción</label>
+                            <textarea asp-for="Evento.Descripcion" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="Evento.Descripcion" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Evento.Fecha" class="form-label">Fecha</label>
+                                <input asp-for="Evento.Fecha" type="datetime-local" class="form-control" />
+                                <span asp-validation-for="Evento.Fecha" class="text-danger"></span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="mb-3 form-check">
+                            <input asp-for="Evento.Activo" class="form-check-input" />
+                            <label asp-for="Evento.Activo" class="form-check-label">Activo</label>
+                            <span asp-validation-for="Evento.Activo" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                            <a asp-action="Index" class="btn btn-secondary me-md-2">Cancelar</a>
+                            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,42 @@
+﻿@model ASOMAMECO.Business.Models.RegistroAsistenciaDto
+@{
+    ViewData["Title"] = "Confirmar Asistencia";
+}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title mb-4">Confirmar Asistencia</h1>
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <form asp-action="ConfirmarAsistencia" method="post">
+                        <input type="hidden" asp-for="EventoId" />
+                        <input type="hidden" asp-for="Cedula" />
+                        <input type="hidden" asp-for="NumeroAsociado" />
+
+                        <div class="alert alert-info mb-4">
+                            <h5>Información del Miembro</h5>
+                            <p><strong>Nombre:</strong> @ViewBag.Nombre</p>
+                            <p><strong>Cédula:</strong> @Model.Cedula</p>
+                            <p><strong>Número de Asociado:</strong> @Model.NumeroAsociado</p>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                            <a asp-action="RegistrarPorEvento" asp-route-id="@Model.EventoId" class="btn btn-secondary me-md-2">Cancelar</a>
+                            <button type="submit" class="btn btn-success">Confirmar Asistencia</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
